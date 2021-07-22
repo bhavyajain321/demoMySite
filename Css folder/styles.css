@@ -1,0 +1,144 @@
+body {
+  color: #40414E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /* 16px =100%=1em or 16px 90/16px=562.5%*/
+  /*So, the beauty of the root em is that it does not get affected by upstream size changes and it means
+that it's easier to debug and it's less likely that something will go wrong.
+So when sizing text my personal recommendation to you is to use rem instead of em or percentages or
+pixels, because that is the most adaptable and also the most reliable and least error prone.*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Condiment', cursive;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #e7305b;
+
+}
+
+a {
+  color: #e7305b;
+}
+
+.top-container {
+  background-color: #9bdeac;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #fcbf1e;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+p {
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.pizza {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/*
+}
+.comp{
+  clear: right;
+}
+.pizz {
+  clear: left; /*clear is like anti float
+  float is making the text wrap around images
+}
+*/
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.cont {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+	background-color:#ff5bb0;
+	border-radius:8px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Merienda', cursive;
+	font-size:17px;
+	font-weight:bold;
+	font-style:italic;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 6px 3px #c70067;
+}
+.btn:hover {
+	background-color: #c70067;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #00909e;
+}
+.copy {
+  color:#c70067;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
